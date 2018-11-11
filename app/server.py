@@ -8,12 +8,9 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://drive.google.com/uc?authuser=0&id=1L3isGHADZxxD490VfYg-pKi1hx8H_Zwa&export=download'
-model_file_name = 'model'
-classes = ['flatrack',
-     'general container',
-     'opentop container',
-     'refrigerated container']
+model_file_url = 'https://drive.google.com/uc?authuser=0&id=1K8vWRIqJ5hTGiL-7gXBzw7WekVigscoN&export=download'
+model_file_name = 'stage-3-containers'
+classes = ['general', 'flat_rack', 'open_top', 'refrigerated']
 path = Path(__file__).parent
 
 app = Starlette()
