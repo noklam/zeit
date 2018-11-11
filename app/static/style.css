@@ -1,5 +1,34 @@
-body {
+/* body {
     background-color: #fff;
+      background-image: url('background-2.jpeg');
+      width:100%;
+      height:100%;
+    opacity: 0.8;
+  
+} */
+html { 
+    background: url('terminal.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-color: hsla(0,0%,100%,0.2); */
+   
+  
+  }
+body {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: rgba(255,255,255,0.5);
+}
+
+
+div {
+    opacity:1
 }
 
 .no-display {
@@ -16,10 +45,10 @@ body {
 }
 
 .title {
-    font-size: 30px;
+    font-size: 48px;
     margin-top: 1em;
     margin-bottom: 1em;
-    color: #262626;
+    color: #111111;
 }
 
 .content {
@@ -54,11 +83,14 @@ button.choose-file-button {
 button.analyze-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #7052CB;
+    border: solid 1px #008cff;
     border-radius: 2px;
-    background-color: #7052CB;
+    background-color: #008cff;
     font-size: 13px;
     color: #ffffff;
 }
 
 button:focus {outline:0;}
+
+
+
